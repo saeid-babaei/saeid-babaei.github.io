@@ -7,17 +7,20 @@ baseurl: "" # the subpath of your site, e.g., /blog
 url: "https://saeid-babaei.github.io" # the base hostname & protocol for your site
 github_username: "saeid-babaei"
 
-remote_theme: pages-themes/modernist@v0.2.0
+#remote_theme: pages-themes/modernist@v0.2.0
+#plugins:
+#- jekyll-remote-theme
+#- jekyll-feed
+#- jekyll-seo-tag
+#- jekyll-sitemap
+
+ Theme settings
+theme: jekyll-theme-modernist # Choose from Jekyll’s themes on GitHub Pages
 plugins:
 - jekyll-remote-theme
 - jekyll-feed
 - jekyll-seo-tag
 - jekyll-sitemap
-
-# Theme settings
-#theme: jekyll-theme-cayman # Choose from Jekyll’s themes on GitHub Pages
-#plugins:
-
 
 # SEO settings
 title_separator: "-"
