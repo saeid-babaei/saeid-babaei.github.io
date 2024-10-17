@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: defaultsub
 title: "Books"
 permalink: /books/
 ---
