@@ -14,7 +14,7 @@ github_username: "saeid-babaei"
 #- jekyll-seo-tag
 #- jekyll-sitemap
 
- Theme settings
+# Theme settings
 theme: jekyll-theme-modernist # Choose from Jekyll’s themes on GitHub Pages
 plugins:
 - jekyll-remote-theme
