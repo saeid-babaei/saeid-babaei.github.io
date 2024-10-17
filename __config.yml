@@ -1,3 +1,57 @@
-remote_theme: pages-themes/minimal@v0.2.0
+# Site settings
+title: "My Self-Directed MBA Journey"
+description: "Documenting my journey through a self-designed MBA curriculum built through online courses, books, and practical insights."
+author: "Saeid Babaei"
+email: "saeid.babayi@live.com"
+baseurl: "" # the subpath of your site, e.g., /blog
+url: "https://saeid-babaei.github.io" # the base hostname & protocol for your site
+github_username: "saeid-babaei"
+
+# Theme settings
+theme: jekyll-theme-minimal # Choose from Jekyll’s themes on GitHub Pages
 plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# SEO settings
+title_separator: "-"
+social:
+  twitter: "yourtwitterhandle"
+  linkedin: "yourlinkedinprofile"
+  github: "yourusername"
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Your Name"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:year/:month/:day/:title/
+paginate: 5 # Number of posts per page on home page
+paginate_path: "/page:num/"
+
+# Optional analytics and comments
+google_analytics: "UA-XXXXXX-X" # Replace with your Google Analytics ID
+comments:
+  provider: "disqus"
+  disqus:
+    shortname: "your-disqus-shortname"
+
+# Navigation settings (optional)
+navigation:
+  - title: "Home"
+    url: "/"
+  - title: "About"
+    url: "/about"
+  - title: "Blog"
+    url: "/blog"
+  - title: "Contact"
+    url: "/contact"
+
