@@ -1,8 +1,6 @@
 # Site settings
 title: "My Self-Directed MBA Journey"
-description: "Documenting my journey through a self-designed MBA curriculum 
-built through courses and certificates, 
-books, and practical insights."
+description: "Documenting my journey through a self-designed MBA curriculum built through courses and certificates, books, and practical insights."
 author: "Saeid Babaei"
 email: "saeid.babayi@live.com"
 baseurl: "" # the subpath of your site, e.g., /blog
