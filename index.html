@@ -15,9 +15,6 @@ title: Home
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
-      display: grid;
-      grid-template-rows: auto 1fr auto;
-      min-height: 100vh;
     }
     header {
       background-color: #f8f9fa;
@@ -27,17 +24,17 @@ title: Home
     nav {
       background-color: #e9ecef;
       padding: 10px 0;
+      text-align: center;
     }
     nav ul {
       list-style-type: none;
       padding: 0;
-      display: flex;
-      justify-content: center;
-      gap: 15px;
       margin: 0;
+      display: inline-block;
     }
     nav ul li {
-      margin: 0;
+      display: inline;
+      margin-right: 15px;
     }
     nav ul li a {
       text-decoration: none;
@@ -55,6 +52,9 @@ title: Home
       background-color: #f8f9fa;
       text-align: center;
       padding: 10px;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
     }
   </style>
 </head>
