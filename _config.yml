@@ -8,7 +8,7 @@ url: "https://saeid-babaei.github.io" # the base hostname & protocol for your si
 github_username: "saeid-babaei"
 
 # Theme settings
-theme: jekyll-theme-cayman # Choose from Jekyll’s themes on GitHub Pages
+theme: jekyll-theme-minimal # Choose from Jekyll’s themes on GitHub Pages
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
@@ -18,8 +18,8 @@ plugins:
 title_separator: "-"
 social:
   twitter: "yourtwitterhandle"
-  linkedin: "yourlinkedinprofile"
-  github: "yourusername"
+  linkedin: "Saeid Babaei"
+  github: "saeid-babaei"
 
 # Defaults
 defaults:
@@ -28,7 +28,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      author: "Your Name"
+      author: "Saeid Babaei"
 
 # Build settings
 markdown: kramdown
@@ -49,7 +49,7 @@ navigation:
   - title: "Home"
     url: "/"
   - title: "About"
-    url: "/about"
+    url: "/about/"
   - title: "Books"
     url: "/books/"
   - title: "Courses"
