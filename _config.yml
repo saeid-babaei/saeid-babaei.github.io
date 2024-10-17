@@ -8,7 +8,7 @@ url: "https://saeid-babaei.github.io" # the base hostname & protocol for your si
 github_username: "saeid-babaei"
 
 # Theme settings
-theme: jekyll-theme-minimal # Choose from Jekyll’s themes on GitHub Pages
+theme: jekyll-theme-cayman # Choose from Jekyll’s themes on GitHub Pages
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
