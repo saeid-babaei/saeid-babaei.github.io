@@ -7,7 +7,8 @@ permalink: /books/
 # Books
 
 ## Introduction
-Here is a list of books I am reading as part of my Self-Directed MBA Journey.
+Here is a list of books I am have read as part of my Self-Directed MBA Journey.
+To be completed...
 
 ## List of Books
 ### Recommended Books
