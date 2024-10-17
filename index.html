@@ -3,6 +3,35 @@ layout: default
 title: Home
 ---
 
-<h1>Hello World, this website is under construction by Saeid Babaei</h1>
-<h2>Self-Directed MBA / Books and Courses</h2>
-<p>Welcome to my Self-Directed MBA Journey, a space dedicated to redefining the way we learn and grow in business. In a world where information is limitless and education is evolving, I’m charting my own course toward a comprehensive business education. By blending curated online courses, insightful books, and real-world applications, I’m crafting an MBA experience tailored to my goals, interests, and career path. Join me as I explore, share, and reflect on this unique journey of self-driven learning, where curiosity meets the discipline of traditional business studies.</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <header>
+    <h1>{{ site.title }}</h1>
+    <nav>
+      <ul>
+        <li><a href="{{ '/' | relative_url }}">Home</a></li>
+        <li><a href="{{ '/about/' | relative_url }}">About</a></li>
+        <li><a href="{{ '/books/' | relative_url }}">Books</a></li>
+        <li><a href="{{ '/courses/' | relative_url }}">Courses</a></li>
+        <li><a href="{{ '/blog/' | relative_url }}">Blog</a></li>
+        <li><a href="{{ '/contact/' | relative_url }}">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1>Hello World, this website is under construction by Saeid Babaei</h1>
+    <h2>Self-Directed MBA / Books and Courses</h2>
+    <p>Welcome to my Self-Directed MBA Journey, a space dedicated to redefining the way we learn and grow in business. In a world where information is limitless and education is evolving, I’m charting my own course toward a comprehensive business education. By blending curated online courses, insightful books, and real-world applications, I’m crafting an MBA experience tailored to my goals, interests, and career path. Join me as I explore, share, and reflect on this unique journey of self-driven learning, where curiosity meets the discipline of traditional business studies.</p>
+  </main>
+  <footer>
+    <p>© {{ site.author }}</p>
+  </footer>
+</body>
+</html>
