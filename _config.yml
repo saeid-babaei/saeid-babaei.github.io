@@ -14,9 +14,9 @@ plugins:
 # Theme settings
 #theme: jekyll-theme-cayman # Choose from Jekyll’s themes on GitHub Pages
 #plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-sitemap
+#  - jekyll-feed
+#  - jekyll-seo-tag
+#  - jekyll-sitemap
 
 # SEO settings
 title_separator: "-"
