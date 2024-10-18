@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    {% seo %}
+
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    {% include head-custom.html %}
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        background-color: #f4f4f9;  /* Light background for a softer feel */
+        color: #333;  /* Dark gray text color for better readability */
+      }
+      header {
+        background-color: #e2e6ea;  /* Light gray header for subtle contrast */
+        padding: 20px;
+        text-align: center;
+        color: #333;
+      }
+      nav {
+        background-color: #d3d9df;  /* Soft gray for the nav bar */
+        padding: 10px 0;
+        text-align: center;
+      }
+      nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: inline-block;
+      }
+      nav ul li {
+        display: inline;
+        margin-right: 15px;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: #0056b3;  /* Soft blue for links */
+      }
+      nav ul li a:hover {
+        text-decoration: underline;
+      }
+      main {
+        padding: 20px;
+        max-width: 800px;
+        margin: 0 auto;
+        text-align: center;
+        flex-grow: 1;
+      }
+      footer {
+        background-color: #e2e6ea;  /* Match the header for consistent design */
+        text-align: center;
+        padding: 10px;
+        color: #333;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>{{ site.title | default: site.github.repository_name }}</h1>
+      {% if site.description or site.github.project_tagline %}
+        <p>{{ site.description | default: site.github.project_tagline }}</p>
+      {% endif %}
+    </header>
+    <nav>
+      <ul>
+        <li><a href="{{ '/' | relative_url }}">Home</a></li>
+        <li><a href="{{ '/about/' | relative_url }}">About</a></li>
+        <li><a href="{{ '/books/' | relative_url }}">Books</a></li>
+        <li><a href="{{ '/courses/' | relative_url }}">Courses</a></li>
+        <li><a href="{{ '/blog/' | relative_url }}">Blog</a></li>
+        <li><a href="{{ '/contact/' | relative_url }}">Contact</a></li>
+      </ul>
+    </nav>
+    <main>
+      {{ content }}
+    </main>
+    <footer>
+      {% if site.github.is_project_page %}
+        <p>Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+      {% endif %}
+      <p>© {{ site.author }}</p>
+    </footer>
+  </body>
+</html>
