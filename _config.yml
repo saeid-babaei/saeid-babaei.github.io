@@ -46,7 +46,7 @@ paginate: 5 # Number of posts per page on home page
 paginate_path: "/page:num/"
 
 # Optional analytics and comments
-#google_analytics: "UA-XXXXXX-X" # Replace with your Google Analytics ID
+google_analytics: "G-9J2K02T72Z" # Replace with your Google Analytics ID
 #comments:
 #  provider: "disqus"
 #  disqus:
