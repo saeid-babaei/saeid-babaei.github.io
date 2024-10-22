@@ -6,7 +6,7 @@ permalink: /books/
 
 # Books
 
- 
+
  
 Here is the list of the books I have read and a summary of them:
 
