@@ -1,4 +1,14 @@
-﻿Here is the list of the books I have read and a summary of them:
+---
+layout: pages
+title: "Books"
+permalink: /books/
+---
+
+# Books
+
+ 
+ 
+Here is the list of the books I have read and a summary of them:
 
 I will continue adding to list till I reach 50 and then I will choose the top 10 books, or 3 books per area To Be Seen.
 
