@@ -10,6 +10,7 @@ permalink: /books/
  
 Here is the list of the books I have read and a summary of them:
 
+This list is on top of text-books and academic resources I studied for courseworks, I may create a seperate list for acacemic books.
 I will continue adding to list till I reach 50 and then I will choose the top 10 books, or 3 books per area To Be Seen.
 
 Links to the summaries be added.
